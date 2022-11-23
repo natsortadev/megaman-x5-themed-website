@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Silkscreen&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+
+/* fundo - rgb(12, 35, 77)
+vermelho - rgb(222, 73, 53)
+laranja rgb(233, 138, 56)
+verde rgb(118, 141, 53) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Audiowide', cursive;
+    font-size: 35px;
+    color: whitesmoke;
+    background-color: rgb(9, 25, 56);
+}
+
+img {
+    padding: 0;
+    max-width: 110px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 88vh;
+    background-color: black(155, 155, 155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+}
+
+body {
+    background-color: rgb(12, 35, 77);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 20px 60px;
+    margin: 10px;
+    background-color: rgb(233, 138, 56);
+    color: black;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Audiowide', cursive;
+}
+
+.btn:hover {
+    background-color: black;
+    color: rgb(233, 138, 56);
+}
+
+.link {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px 60px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+}
+
+.link:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.popup {
+    width: 400px;
+    background-color: rgb(233, 138, 56);
+    border-radius: 6px;
+    position: absolute;
+    /*top: auto;
+    left: auto;*/
+    text-align: left;
+    padding: 30px 30px 30px;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+
+    transition: transform 0.4s, top;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 45%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#plus-image {
+    display: flex;
+    flex-direction: row;
+}
+
+#mh {
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+input {
+    border: none;
+    background-color: rgb(238, 238, 238);
+    padding: 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-family: 'Silkscreen', cursive;
+    max-width: 180px;
+}
+
+input:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.popup button {
+    border: none;
+    padding: 10px 10px 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 0.97em;
+    margin-right: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.popup label {
+    color: rgb(53, 28, 7);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.popup button:hover {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.popup button#fechar {
+    background-color: rgb(118, 141, 53);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.popup button#fechar:hover {
+    background-color: black;
+    color: rgb(233, 138, 56);
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    padding: 30px 30px 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: whitesmoke;
+    cursor: default;
+}
+
+footer a:hover {
+    color: rgb(233, 138, 56);
+}

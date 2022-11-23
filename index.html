@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/megaman.png" type="image/x-icon">
+    <title>Maverick Hunters Base</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="logo-maverick-hunters" src="/img/Maverick_Hunter_Mark.webp" alt="logo-maverick-hunters">
+    <h1>Maverick Hunters Base</h1>
+    <hr>
+    <div class="container">
+        <div class="botoes">
+            <button type="submit" class="btn" id="login" onclick="openPopup()"><strong>Fazer login</strong></button>
+            <a id="convidado" class="link" href="/parte2.html"><strong>Visitante</strong></a>
+        </div>
+        <div class="popup" id="popup">
+            <form>
+                <div id="plus-image">
+                    <div id="form-info">
+                        <label for="nome"><strong>Nome</strong></label>
+                        <input id="nome" type="text" placeholder="Insira seu nome">
+                        <label for="email"><strong>Email</strong></label>
+                        <input id="email" type="email" placeholder="Insira seu email">
+                        <label for="senha"><strong>Senha</strong></label>
+                        <input id="senha" type="password" placeholder="Insira sua senha">
+                    </div>
+                <img id="mh" src="/img/Maverick_Hunter_Mark.webp" alt="logo-maverick-hunters">
+                </div>
+                <button type="button" id="alert" onclick="alertaLogin()">Fazer login</button>
+                <button type="button" id="fechar" onclick="closePopup()">Fechar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p id="rodape">All rights reserved &copy; <a>Tretij Rebenok 2022</a></p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- 
+        <label for="nome"><strong>Nome</strong></label><br>
+        <input id="nome" type="text" placeholder="Insira seu nome">
+        <br>
+        <label for="email"><strong>Email</strong></label><br>
+        <input id="email" type="email" placeholder="Insira seu email">
+        <br>
+        <label for="senha"><strong>Senha</strong></label><br>
+        <input id="senha" type="password" placeholder="Insira sua senha">
+        <br>
+        <button type="button" id="alert" onclick="alertaLogin()">Fazer login</button>
+        <button type="button" id="fechar" onclick="closePopup()">Fechar</button>    
+
+
+
+        <div id="form-info">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input id="nome" type="text" placeholder="Insira seu nome">
+                    <label for="email"><strong>Email</strong></label>
+                    <input id="email" type="email" placeholder="Insira seu email">
+                    <label for="senha"><strong>Senha</strong></label>
+                    <input id="senha" type="password" placeholder="Insira sua senha">
+                </div>
+     -->
+     <!--
+     <div id="plus-image">
+        <div id="form-info">
+            <label for="nome"><strong>Nome</strong></label>
+            <input id="nome" type="text" placeholder="Insira seu nome">
+            <label for="email"><strong>Email</strong></label>
+            <input id="email" type="email" placeholder="Insira seu email">
+            <label for="senha"><strong>Senha</strong></label>
+            <input id="senha" type="password" placeholder="Insira sua senha">
+        </div>
+        <img id="mh" src="/img/Maverick_Hunter_Mark.webp" alt="logo-maverick-hunters">
+    </div>
+    <button type="button" id="alert" onclick="alertaLogin()">Fazer login</button>
+    <button type="button" id="fechar" onclick="closePopup()">Fechar</button>
+    -->
+</body>
+</html>

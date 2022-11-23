@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Silkscreen&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+a, li, p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+/*p#rodape {
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}*/
+
+/* 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Silkscreen', cursive; */
+
+header {
+    background-color: black;
+    padding: 30px 30px 30px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+#logo {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+#logoImg {
+    margin-left: 150px;
+    max-width: 150px;
+    position: absolute;
+    margin-top: -10px;
+}
+
+#logoImg:hover {
+    filter: brightness(50%);
+}
+
+footer {
+    background-color: black;
+    padding: 30px 30px 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: whitesmoke;
+    cursor: default;
+}
+
+footer a:hover {
+    color: blueviolet;
+}
+
+.conteudos {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem-deles {
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#eles {
+    margin-left: 120px;
+    max-width: 300px;
+}
+
+.texto {
+    padding: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 120px;
+}
+
+ul {
+    margin-right: 150px;
+}
+
+.outros {
+    margin-left: 30px;
+}
+
+img#maverick-hunter {
+    max-height: 30px;
+}
+
+img#maverick-hunter:hover {
+    filter: brightness(50%);
+}
+
+img#maverick {
+    max-height: 30px;
+}
+
+img#maverick:hover {
+    filter: brightness(50%);
+}
+
+img#youtube {
+    max-height: 30px;
+}
+
+img#youtube:hover {
+    filter: brightness(50%);
+}
+
+img#wikia {
+    max-height: 30px;
+}
+
+img#wikia:hover {
+    filter: brightness(50%);
+}
