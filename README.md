@@ -13,6 +13,9 @@
   ```
   git clone https://github.com/nat-thunder/megaman-x5-themed-website.git
   ```
+  
+## ✨ inspirações
+  - design da segunda página inspirado em um *layout* criado pelo [@EduNunes02](https://github.com/EduNunes02)
 
 <br>
 
