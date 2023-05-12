@@ -4,7 +4,7 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 
-## 📚 site criado para
+## 📚 projeto criado para
   - aprender como criar um modal 
   - treinar alinhamento de elementos com CSS
 > parte da trilha de FrontEnd do estágio do qual participei em 2022
