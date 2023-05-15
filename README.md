@@ -1,5 +1,4 @@
-<a href="https://github.com/nat-thunder/megaman-x5-themed-website/blob/main/README-ptbr.md" onclick="BR()"><img src="https://img.shields.io/badge/%20PT&#8208;BR-yellow.svg?style=for-the-badge"></a>
-<a href="#"><img src="https://img.shields.io/badge/%20EN-blue.svg?style=for-the-badge"></a>
+<a href="https://github.com/nat-thunder/megaman-x5-themed-website/blob/main/README-ptbr.md"><img src="https://img.shields.io/badge/%20🇧🇷%20LER%20EM%20PT&#8208;BR-yellow.svg?style=for-the-badge"></a>
 
 # 🪐 Megaman X5 themed Website
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
